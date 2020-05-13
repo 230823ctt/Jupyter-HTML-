@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/proe.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default bodyone navbar-fixed-top">
+        <div class="container-fluid header">
+            <!-- 品牌和开关分组以获得更好的移动显示 -->
+            <div class="navbar-header daohang">
+                <button type="button" class="navbar-toggle collapsed anniu" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logo" href="#"><img src="images/logo.jpg "
+                        class="visible-md-inline-block visible-lg-inline-block"></a>
+                <a class="navbar-brand logo" href="#"><img src="images/logo2_03.jpg"
+                        class="visible-xs-inline-block visible-sm-inline-block "></a>
+            </div>
+
+            <!--收集用于切换的导航链接、窗体和其他内容-->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" class="anzhuang">安装</a></li>
+                    <li><a href="#" class="anzhuang">关于我们</a></li>
+                    <li><a href="#" class="anzhuang">社区</a></li>
+                    <li><a href="#" class="anzhuang onzhuang">文档</a></li>
+                    <li><a href="#" class="anzhuang">NBViewer</a></li>
+                    <li><a href="#" class="anzhuang">JupyterHub</a></li>
+                    <li><a href="#" class="anzhuang">小工具</a></li>
+                    <li><a href="#" class="anzhuang">博客</a></li>
+                </ul>
+            </div><!-- /.折叠 -->
+        </div><!-- /.集装箱流体 -->
+    </nav>
+    <!-- 开始第一个部分 -->
+    <div class="box text-center container-fluid">
+        <h3>安装Jupyter软件</h3>
+        <p>数分钟之内即可在计算机上使用JupyterLab或经典的Jupyter Notebook启动并运行！</p>
+    </div>
+    <div class="bodytwo container-fluid">
+        <h2>JupyterLab入门</h2>
+        <h3>安装</h3>
+        <p>JupyterLab可以使用<code>conda</code>或安装 <code>pip</code>。有关更多详细说明，请参阅<a href="#">安装指南</a>。</p>
+        <h3>康达</h3>
+        <p>如果您使用<code>conda</code>，则可以使用以下命令进行安装：</p>
+        <pre>conda install -c conda-forge jupyterlab</pre>
+        <h3>点子</h3>
+        <p>如果您使用<code>pip</code>，则可以使用以下命令进行安装：</p>
+        <pre>pip install jupyterlab</pre>
+        <p>如果使用安装<code>pip install --user</code>，则必须将用户级<code>bin</code>目录添加到<code>PATH</code>环境变量中才能启动<code>jupyter
+                lab</code></p>
+        <h2>经典Jupyter Notebook入门</h2>
+        <h3>先决条件：Python</h3>
+        <p>尽管Jupyter使用多种编程语言运行代码，但是安装JupyterLab或经典的Jupyter Notebook是Python（Python 3.3或更高版本，或者Python 2.7）的要求。</p>
+        <h3>使用Anaconda安装Jupyter Notebook</h3>
+        <p>我们<b>强烈建议</b> 您使用<a href="#"> Anaconda发行版</a>安装Python和Jupyter,该发行版包括Python，Jupyter
+            Notebook和其他用于科学计算和数据科学的常用软件包。<br>
+
+            首先，下载<a href="#">Anaconda</a> 。我们建议下载Anaconda的最新Python 3版本。<br>
+
+            其次，按照下载页面上的指示安装您下载的Anaconda版本。<br>
+
+            恭喜，您已经安装了Jupyter Notebook！要运行笔记本，请在终端机（Mac / Linux）或命令提示符（Windows）上运行以下命令：</p>
+        <pre>jupyter notebook</pre>
+        <p>有关更多详细信息，请参见<a href="#">运行笔记本。</a></p>
+        <h3>使用pip安装Jupyter Notebook</h3>
+        <p>作为现有或经验丰富的Python用户，您可能希望使用Python的软件包管理器pip而不是Anaconda安装Jupyter。</p>
+        <p>如果您已安装Python 3（建议）：</p>
+        <pre>python3 -m pip install --upgrade<br>pippython3 -m pip install jupyter</pre>
+        <p>如果您安装了Python 2：</p>
+        <pre>python -m pip install --upgrade pip<br>python -m pip install jupyter</pre>
+        <p>恭喜，您已经安装了Jupyter Notebook！要运行笔记本，请在终端机（Mac / Linux）或命令提示符（Windows）上运行以下命令：</p>
+        <pre>jupyter notebook</pre>
+        <p class="last">有关更多详细信息，请参见<a href="#">运行笔记本。</a></p>
+    </div>
+    <!-- 第三个部分 -->
+    <div class="bodythree container-fluid">
+        <div class="row">
+            <div class="col-lg-10 col-xs-12">
+                <ul>
+                    <li><a href="#">家</a></li>
+                    <li><a href="#">安装</a></li>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">社区</a></li>
+                    <li><a href="#">文献资料</a></li>
+                    <li><a href="#">NBViewer</a></li>
+                    <li><a href="#">JupyterHub</a> </li>
+                    <li><a href="#">小部件</a></li>
+                    <li class="last"><a href="#">博客</a></li>
+                </ul>
+                <p>版权所有©2019 Jupyter项目-最近更新于2019年10月19日星期六</p>
+                <p>Jupyter商标已在美国专利商标局注册。</p>
+            </div>
+            <div class="col-lg-2 col-xs-12 ">
+                <a href="#"><img src="images/zuihou_03.jpg">关注@jupyter</a>
+                <a href="#">关注@ProjectJupyter</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

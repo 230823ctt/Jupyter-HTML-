@@ -1,0 +1,128 @@
+body {
+    padding-top: 73px;
+}
+
+.navbar-default .navbar-nav>li>.anzhuang {
+    color: #000;
+    font-size: 15px;
+    padding-top: 27px;
+    padding-bottom: 25px;
+}
+
+.daohang .anniu {
+    border: none;
+}
+
+.navbar-default .navbar-nav>li>.anzhuang:hover {
+    color: #e46e2e;
+}
+
+.navbar-default .navbar-nav>li>.onzhuang {
+    color: #e46e2e;
+    font-size: 15px;
+}
+
+.bodyone {
+    background: #fff;
+    height: 73px;
+    margin-bottom: 0;
+}
+
+.bodyone .header .daohang .logo {
+    margin-left: 25px;
+}
+
+/* 开始第一个部分  */
+.box {
+    height: 177px;
+    background: #f5f5f5;
+    margin-top: 0px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-top: 40px;
+    margin-bottom: 67px;
+}
+
+.bodytwo {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.bodytwo p{
+    font-size: 16px;
+}
+.bodytwo pre{
+    padding: 0;
+    padding-left:10px;
+    padding-top: 14px;
+    padding-bottom: 11px;
+}
+@media screen and (min-width:992px) {
+    .bodytwo {
+        padding-left: 215px;
+        padding-right: 215px;
+    }
+}
+.bodytwo .last{
+    margin-bottom: 67px;
+}
+/* 第三个部分  */
+.bodythree {
+    background: #979797;
+    overflow: hidden;
+}
+
+.bodythree ul {
+    overflow: hidden;
+    /* margin-left: -45px; */
+    margin-top: 18px;
+}
+
+.bodythree ul li {
+    list-style: none;
+    float: left;
+}
+
+.bodythree ul li a {
+    color: #fff;
+    font-size: 15px;
+    border-right: 2px solid #eefff8;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.bodythree ul .last a {
+    border-right: none;
+}
+
+.bodythree p {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+.col-lg-2 a:first-child {
+    display: block;
+    font-size: 12px;
+    color: #24292e;
+    width: 102px;
+    line-height: 18px;
+    background: #f8f9fb;
+    border-radius: 3px;
+    border: 1px solid #d1d2d3;
+    margin-top: 15px;
+    margin-bottom: 9px;
+    text-align: center;
+    margin-left: 80px;
+
+}
+
+.col-lg-2 a:first-child img {
+    margin-right: 3px;
+    text-align: center;
+}
+
+.col-lg-2 a:last-child {
+    color: #fff;
+    font-size: 12px;
+    margin-left: 80px;
+}
